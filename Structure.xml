@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+ 
+<root>
+	<dynamic-element name="VideoFile" type="text" index-type="" repeatable="false">
+		<meta-data>
+		<entry name="displayAsTooltip"><![CDATA[true]]></entry>
+		<entry name="required"><![CDATA[false]]></entry>
+		<entry name="instructions"><![CDATA[The video file]]></entry>
+		<entry name="label"><![CDATA[Video File]]></entry>
+		<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="SwfPlayer" type="document_library" index-type="" repeatable="false">
+		<meta-data>
+		<entry name="displayAsTooltip"><![CDATA[true]]></entry>
+		<entry name="required"><![CDATA[false]]></entry>
+		<entry name="instructions"><![CDATA[The SWF Player]]></entry>
+		<entry name="label"><![CDATA[SWF File]]></entry>
+		<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="SwfPlayerControl" type="document_library" index-type="" repeatable="false">
+		<meta-data>
+		<entry name="displayAsTooltip"><![CDATA[true]]></entry>
+		<entry name="required"><![CDATA[false]]></entry>
+		<entry name="instructions"><![CDATA[The mp4 video file]]></entry>
+		<entry name="label"><![CDATA[MP4 File]]></entry>
+		<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+</root>

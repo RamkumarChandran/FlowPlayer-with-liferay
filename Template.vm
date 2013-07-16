@@ -1,0 +1,18 @@
+#set ($imagePath = $request.get("theme-display").path-theme-images)
+<script type="text/javascript" src="$imagePath/../js/flowplayer-3.2.11.min.js"></script>
+<script type="text/javascript" src="$imagePath/../js/jquery1.8.js"></script>
+<a href="$VideoFile.getData()" class="player" id="player" ></a>
+<script type="text/javascript">
+$(document).ready(function()
+{
+flowplayer("player", "$SwfPlayer.getData()",
+{
+plugins:{
+controls: {
+url: "$SwfPlayerControl.getData()"
+}
+}
+}
+);
+});
+</script>
